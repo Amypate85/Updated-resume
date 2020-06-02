@@ -1,0 +1,111 @@
+@font-face {
+	src: local("manropelight"),
+		local(""),
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+
+:root {
+	 --gold: #ede051;
+	--lightgold: #ede051a4;
+	--nav: #e9de65fb;
+
+	--pink: #e06969;
+	--lightpink: #e06969a1;
+
+	--dark:
+}
+
+
+
+.active{
+	border-bottom: 2px solid var(--pink);
+    padding-bottom: 5px;
+ 
+}
+
+ul{
+	display: flex;
+ align-items: end;
+	flex-direction: row;
+	list-style: none;
+    width: 100vw;
+
+
+}
+
+
+nav{
+	position: ;
+	background-color: var(--nav);
+    width: 100vw;
+
+}
+
+
+li{
+	width: 100vw;
+    padding:  .5em;
+    text-align: end;
+ }
+
+
+nav a {
+	
+	text-decoration: none;
+	color: var(--pink);
+	width: 100vw;
+	font-weight: bold;
+	letter-spacing: 1.5;
+ 	font-size: .85rem;
+ 
+	
+
+}
+
+
+.hero {
+
+	background-image: url(../img/hero.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+    
+}
+
+.columns{
+	  column-count: 3;
+	  column-width:  25vw;
+	  column-rule: 1px solid rgb(110, 99, 99);
+ 	background-color: var(--lightpink);
+	 padding: 4rem;
+	 margin: 4em 0;
+	 line-height: 1.7;
+	 font-size: 1.5rem;
+	 letter-spacing: .4;
+	  
+ }
+
+ .columns p{
+	 margin-top: 0;
+	 padding: 1em;
+ }
+
+ .skills{
+	background-color: var(--lightgold);
+	padding:2em;
+	line-height: 1.7;
+	 font-size: 1.5rem;
+	 letter-spacing: .4;
+	 column-count: 3;
+	  column-width:  25vw;
+	  column-rule: 1px solid rgb(110, 99, 99);
+ }
